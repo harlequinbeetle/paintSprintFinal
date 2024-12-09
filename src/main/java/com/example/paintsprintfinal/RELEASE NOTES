@@ -1,0 +1,114 @@
+[1.0.5] -- RELEASE NOTES -- [10/23/24]
+NEW FEATURES:
+    * User can now select and move an area of the canvas.
+    * User can now clear the canvas.
+    * User can now perform undo and redo actions.
+    * User can now draw an additional shape.
+    * User can now draw a polygon with any given number of sides.
+
+KNOWN ISSUES:
+    * Select area is buggy and creates a new canvas over the old one, but the overall typical behavior is there.
+    *
+
+[1.0.4] -- RELEASE NOTES -- [10/15/24]
+NEW FEATURES:
+    * Stars can now have variable number of points.
+    * UI has been completely overhauled; buttons instead of dropdowns, etc.
+    * Tooltips and alerts for autosaves have been implemented.
+    * Keyboard shortcuts are fully functional.
+    * User can now mirror/flip the canvas.
+    * Program now logs all user interactions to a text file.
+
+KNOWN ISSUES:
+    * Need to implement specific degree rotations.
+    * Select area needs to implement rotation functionality.
+
+[1.0.3] -- RELEASE NOTES -- [10/05/2024]
+NEW FEATURES:
+    * Software includes 3 unit tests.
+    * Timed autosave is implemented.
+    * Webserver is beginning to be implemented.
+    * JavaDoc commenting has been implemented.
+    * User can now save images in different file formats than usual by selecting an alternative file type in the file menu.
+
+KNOWN ISSUES:
+    * Webserver needs refining.
+    * Select area needs more fine-tuning as well.
+    * Working on UI upgrades.
+
+[1.0.3] -- RELEASE NOTES -- [09/25/2024]
+NEW FEATURES:
+    * User can now add text to the canvas.
+    * User can now select and move an area of the canvas.
+    * User can now clear the canvas.
+    * User can now perform undo and redo actions.
+    * User can now draw an additional shape.
+    * User can now draw a polygon with any given number of sides.
+    * Basic tabs are implemented.
+
+KNOWN ISSUES:
+    * UI needs an upgrade.
+    * Kaleidoscope issue still prevalent and needs fixing.
+    * Select area is buggy and creates a new canvas over the old one, but the overall typical behavior is there.
+
+
+[1.0.2] -- RELEASE NOTES -- [09/16/2024]
+NEW FEATURES:
+    * Restructured the entire program to have a variety of classes rather than one large document.
+    * User can control the width of the line and shape being drawn.
+    * User can now draw squares, rectangles, circles, ellipses, triangles, and straight lines.
+    * User is provided the pixel size of the width.
+    * User can use CTRL + S to quicksave.
+    * Color picker shows the Hex values for colors selected.
+    * Canvas resizes dynamically with the window.
+    * User can draw lines and shapes with a dashed outline.
+    * Software now has smart save and will prompt the user to confirm before exiting.
+
+KNOWN ISSUES:
+    * Shape tools create a kaleidoscope issue, which while it looks cool, it's not what I want.
+    * Eyedropper needs to be fixed and initialized.
+    * Buttons need to adjust dynamically to the size of the window (i.e. setting anchor points for buttons).
+
+EXPECTED NEXT SPRINT:
+    * Extra shapes
+    * Eraser tool
+
+[1.0.1] -- RELEASE NOTES -- [08/30/2024]
+
+NEW FEATURES:
+    * User is able to open and display an image file with Select File.
+    * User is able to overwrite old image with new saved copy with Save.
+    * User is able to save a new image file with Save As.
+    * Program supports .png, .jpg, and .bmp file types.
+    * User is able to exit the application with a designated button in the top right.
+    * The menu bar for actual program operations is at the top left corner, with all of the save and file options.
+    * User is able to adjust the width of the pen.
+    * Color picker is on screen and functional.
+    * Help menu and About window are initialized.
+    * Window adjusts to accommodate for image size.
+
+
+KNOWN ISSUES:
+    * Need to work on layout changes and splitting code into multiple files rather than one massive document.
+
+EXPECTED NEXT SPRINT:
+    * Adding an eraser.
+    * Shape tools?
+
+[1.0.0] -- RELEASE NOTES -- [08/30/2024]
+
+NEW FEATURES:
+    * User is able to open and display an image file with Select File.
+    * User is able to overwrite old image with new saved copy with Save.
+    * User is able to save a new image file with Save As.
+    * Program supports .png, .jpg, and .bmp file types.
+    * User is able to exit the application with a designated button in the top right.
+    * The menu bar for actual program operations is at the top left corner, with all of the save and file options.
+
+KNOWN ISSUES:
+    * Save As had some bugs, but they're fixed now.
+
+EXPECTED NEXT SPRINT:
+    * Adding an eraser.
+    * Implementing color picker.
+    * Shape tools?
